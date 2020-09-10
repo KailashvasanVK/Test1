@@ -1,0 +1,9 @@
+EOB:
+Comes only from Athena
+Athena tie up with hospitals, clinics and patients
+The doctor providing the treatment is recorded in audio tape
+This audio is converted into text by Insurance people there.
+This text file is scanned and sent to Athena from hospital
+A team in Athena segragates payer wise and send that updated pdf to echopay team
+OCR is done on that pdf and text is extracted and mapped to DB fields and saved. (as it is plain text after OCR done, it has to be mapped to DB fields done thru a automation/training windows app)
+Then it goes to echoflow where this information is posted to Athena net
