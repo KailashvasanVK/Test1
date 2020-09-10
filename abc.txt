@@ -1,0 +1,20 @@
+
+Non Voice --> website, eob, previous notes
+
+1) Downloading the file from PMS - Automation already there named FTP automation which connects the client path and takes the files and puts in HAS local folder with xlx or csv format
+
+2) Upload that files to ARC DB - currently requires some manual work, need to check the automation scope
+
+3) Voice or non voice segration is done with ML. If non voice. then payer web portal availbility need to check and the below
+
+PMS - 13 Data points - DB inserts - Then put in the payer website and extract the claim status - review - notes posted to PMS (Claims that can be closed, else moved to voice)
+
+Need to do the automation
+
+4) If voice - direct to voice (Dasha integration) - it will give the ivr text on giving the claim number. if it can be completed with that O/P, then review and posted to PMS. Else dialer connects to the payer
+
+
+Question:
+1) Client partner review doc notes - context to know
+2) Automation and flow scope of IVR thing
+3) automation scope of client partner review, post to pms and arc flow. 
