@@ -1,0 +1,17 @@
+Previous scenario:
+We receive around 80,000 batches (EOB Files, pdf) from the client (Athena) everyday. Each batch may have one or muliple transactions.
+EOB Files -> contains doctor mention about the cost for each medical code/treatment provided.
+Data entry person manually key in the cost details in the Offline internal application from these EOB files which takes lot of time.
+From this offline application, remit file (text file format) is generated and this is posted to Athena by data entry person.
+Currently 30% of these files are handled with echopay automation. rest 70% are done by data entry persons.
+
+Echopay automation:
+OCR is done on the EOB file and text extracted and mapped to the DB fields. It is retrieved in the offline application and remit file generated. (Check)
+
+Flow:
+Once this EOB remit file is posted to athena, then only the payment would be processed by payer and released.
+
+
+
+
+
