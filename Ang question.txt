@@ -1,0 +1,71 @@
+1) Async Pipe subscribes to observer and update expression whenever there is data sent from observer (T/F)
+
+2) Pass data b/w parent & child and vice versa
+3) You can create local HTML reference of HTML tag using variable which starts with character (@, #, *, &)
+4) Choose correct form control class name which is set to true when value is modified
+a. .ng-valid
+b. .ng-invalid
+c. .ng-pending
+d. .ng-pristine
+e. .ng-dirty
+f. .ng-untouched
+5) If you provide a service in two components’ “providers” section of @Component decorator, how many instances of service shall get created?
+a. 1
+b. 2
+c. 3
+d. 4
+6) In routing, below tag is used to show selected route component dynamically
+a. <router></router>
+b. <router-output></router-output>
+c. <router-outlet></router-outlet>
+d. <router-input></router-input>
+7) We need to call below method of RouterModule for providing all routes in AppModule
+a. RouterModule.forChild
+b. RouterModule.forRoot
+c. RouterModule
+d. RouterModule.all
+8) directive which changes DOM hierarchy
+structural directives, attribute directives, component
+9)Below command is used to run Static Code analysis of Angular application
+a. ng build
+b. ng profile
+c. ng lint
+d. ng serve
+10) Router service needs to be explicitly provided in angular module to use it in other component via DI
+a. true
+b. false
+11) We can chain multiple pipe in a single expression along with “async” pipe
+a. true
+b. false
+12) Below component represent “target/host” DOM element inside Directive’s constructor
+a. Element
+b. ElementRef
+c. Host
+d. Target
+13) Directive can listen to host/target events using below decoarator
+a. @Listener
+b. @HostListener
+c. @OnListener
+d. @TargetListener
+14)Using below wild card we can define page not found route
+a. *
+b. **
+c. 404
+d. ^
+15) There can be more than one <router-outlet> element in angular application
+a. true
+b. false
+
+adjusting the col10 not changing the width of div. only with margin left/right it is changing width
+
+<div class="col-md-10">
+                    <div class="PayerWiseData box-type" style="margin-left: 0.5%; margin-right: 0.5%">
+                        <h4 class="col-sm-3 col-md-3 col-xs-3" id="processCounts"></h4>
+                        <h2 class="col-sm-6 col-md-6 col-xs-6" style="text-align: center; font-size: 25px">Daywise Transaction Counts</h2>
+                        <div id="TrendsData" style="float: left; height: 500px; width: 100%;">
+                            <dx-data-grid id="gridContainer" [dataSource]="resultobj" [showBorders]="true"
+                            [columnMinWidth]="150"></dx-data-grid>                        
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
