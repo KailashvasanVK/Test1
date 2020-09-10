@@ -1,0 +1,7 @@
+https://www.c-sharpcorner.com/article/how-to-create-a-build-definition-in-tfs-2015-adding-tasks-and-setting-build-me/
+https://blogs.sap.com/2018/06/19/continuous-integration-and-continuous-deployment-using-tfs-part-1/
+https://blogs.sap.com/2018/06/19/continuous-integration-and-continuous-deployment-using-tfs-part-2/
+
+Build agent queue:
+https://lajak.wordpress.com/2016/04/01/fix-tfs-2015-builds-queue-is-empty/
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/5ba71a45-3996-4e4a-bc2c-c8e6dbea44a1/tfs-2015-agent-queue-cannot-display-when-build?forum=tfsgeneral

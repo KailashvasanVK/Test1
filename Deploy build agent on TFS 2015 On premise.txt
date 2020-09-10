@@ -1,0 +1,7 @@
+Add users to the agent pool groups:
+https://lajak.wordpress.com/2016/04/01/fix-tfs-2015-builds-queue-is-empty/
+https://social.msdn.microsoft.com/Forums/vstudio/en-US/5ba71a45-3996-4e4a-bc2c-c8e6dbea44a1/tfs-2015-agent-queue-cannot-display-when-build?forum=tfsgeneral
+
+Deploy an agent on TFS 2015 Onpremise:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v1-windows?view=tfs-2015&viewFallbackFrom=azure-devops
+https://blogs.objectsharp.com/post/2015/06/15/TFS-2015-buildrelease-agent-install-and-configure.aspx
