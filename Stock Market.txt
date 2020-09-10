@@ -1,0 +1,19 @@
+﻿1) National stock exchange website (NSC)
+Can scrap info from that site every 5 secon. but requies to process that data for our use accordingly. It will be also give in pdf format etc
+
+2) Broker website (Zerodha) - Paid
+Cannot do web scrapping, as they would block the IP if done like every 1 sec access. 
+They provide api, but not much info like forums etc can be get from that.
+they charge around 2000 for that api's
+
+3) AngelBroking - Opensource
+we can go to that site and view source and get the script and run that script from our website to get the price details of the stock alone
+
+4) Popular stock market website to do web scrap
+MoneyControl
+EconomicTimes
+FinTrust
+
+5) C# Opne source dll for web scraping, webscraping. we can pass like the column name of the html table, it will return that row and we can use accordingly
+
+http://10.20.79.116:9092/#/ 
